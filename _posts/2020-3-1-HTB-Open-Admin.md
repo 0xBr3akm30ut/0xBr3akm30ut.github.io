@@ -31,7 +31,7 @@ During enumerating the directories, I found an intersting directory -> */ona*, S
 The first thing I intersted about was the phrase *You are NOT on the latest release version
 Your version    = v18.1.1*, So I Searhced about *OpenNetAdmin v18.1.1 exploitation* because it was outdated, maybe it had a vulnerability in the previous version and could I exploit it.
 
-And Yeah! I found an exploitation on *https://www.exploit-db.com/exploits/47691* and it was a *RCE* and the security researcher that found that vulnerability wrote a bash script to exploit it.
+And Yeah! I found an exploitation on [](https://www.exploit-db.com/exploits/47691) and it was a *RCE* and the security researcher that found that vulnerability wrote a bash script to exploit it.
 ![_config.yml]({{ site.baseurl }}/images/HTB/boxes/OpenAdmin/ona_bash.png)
 
 I read that bash script and understanded how to use it, So I fired up my terminal and run:
