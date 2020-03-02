@@ -50,7 +50,9 @@ I got the database password, But I didn't know the usernames were logged in the 
 I remembered that I got a *ssh* port open during *reconn*, So I tried to login with *jimmy* (one of the users I found) with db_password via the *ssh* services and Voila! I logged in to the server. 
 
 I was thinking for 10 minutes what should I do in the next step, So I remembered the the intersting part that i told you before, If you see the image above again, You will see that jimmy was doing *cURL* in some dirs in *127.0.0.1*, So I tried to visit the web server direcotry and see what was there..
+
 ![_config.yml]({{ site.baseurl }}/images/HTB/boxes/OpenAdmin/web_server.png)
+
 
 I found an intersting directory called internal, So I listed it and found 3 *PHP* files, The first file I read was main.php, because *jimmy* was *cURLing* that file.
 
